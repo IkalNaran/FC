@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    background: #0063C5;
+    height: 10vh;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+main{
+    display: flex;
+    background: #0063C5;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;  
+}
+
+a:link, a:hover, a:visited {
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.img_logo{
+    width: 300px;
+    margin: 10px 0px 10px 0px;
+}
+.container_email_pass{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.container-btn{
+    text-align: center; 
+}
+
+.form-login{
+    width: 300px;
+}
+
+footer{
+    background: #0063C5;
+    height: 10vh;
+}

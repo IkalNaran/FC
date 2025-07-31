@@ -1,0 +1,82 @@
+.img_logo-header{
+  flex: auto;
+}
+
+.cerrar-sesion{
+  flex: auto;
+  text-align: right;
+  margin-right: 30px;
+}
+main{
+    display: flex;
+    width: 80vw;
+    height: auto;
+    margin: 30px auto ;
+    background: #ccc;
+}
+
+.main-solicitud{
+  background: none;
+}
+
+.form-container {
+  background: white;
+  padding:0px 20px 10px 20px;
+  width: 80vw;
+  height: auto;
+  min-height: 80vh;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.left-column,
+.right-column {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+}
+
+.right-column {
+  margin-right: 0;
+}
+
+.button-group {
+  clear: both;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 15px 15px 0px 0px;
+}

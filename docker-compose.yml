@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - "C:/xampp/htdocs/proyecto_tconecta:/var/www/html"
+    environment:
+      DB_HOST: host.docker.internal
+      DB_NAME: sistema_spei
+      DB_USER: Mauricio
+      DB_PASSWORD: C0smopolis.
